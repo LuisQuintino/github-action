@@ -22,4 +22,5 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Execute Build
+      working-directory: ./TesteConsoleNet
       run: dotnet test
